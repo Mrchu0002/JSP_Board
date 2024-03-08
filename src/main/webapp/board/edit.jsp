@@ -10,4 +10,4 @@
 <%
 	dao.update(vo);
 %>
-<c:redirect url="${pageContext.request.contextPath}/board/boardDetail.jsp?num=${vo.num}"/>
+<c:redirect url="/board/boardDetail.jsp?num=${vo.num}"/>

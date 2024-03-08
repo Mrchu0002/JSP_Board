@@ -11,4 +11,4 @@
 	dao.insert(vo);
 	//response.sendRedirect(request.getContextPath() + "/list.jsp");
 %>
-<c:redirect url="${pageContext.request.contextPath}/board/list.jsp"/>
+<c:redirect url="/board/list.jsp"/>

@@ -7,4 +7,4 @@
 	int num = Integer.parseInt(request.getParameter("num"));
 	dao.delete(num);
 %>
-<c:redirect url="${pageContext.request.contextPath}/board/list.jsp"/>
+<c:redirect url="/board/list.jsp"/>
